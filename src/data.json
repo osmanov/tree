@@ -1,0 +1,52 @@
+ [
+     {
+        "Id": 1,
+        "Name": "Health & Fitness",
+        "Categories": [
+            {
+                "Id": 1,
+                "Name": "Booty & Abs",
+                "State": "active",
+                "Courses":[
+                    {
+                        "Id": 1,
+                        "Name": "Loose the Gutt, keep the Butt",
+                        "Author": "Anowa",
+                        "State": "active"
+                      },
+                      {
+                        "Id": 2,
+                        "Name": "BrittneBabe Fitness Transformation",
+                        "Author": "Brittnebabe",
+                        "State": "active"
+                      }
+                ]
+              } 
+        ]
+     },
+     {
+        "Id": 2,
+        "Name": "Business",
+        "Categories": [
+            {
+                "Id": 3,
+                "Name": "Advertising",
+                "State": "active",
+                "Courses":[
+                    {
+                        "Id": 5,
+                        "Name": "Loose the Gutt, keep the Butt2",
+                        "Author": "Anowa",
+                        "State": "active"
+                      },
+                      {
+                        "Id": 6,
+                        "Name": "BrittneBabe Fitness Transformation2",
+                        "Author": "Brittnebabe2",
+                        "State": "active"
+                      }
+                ]
+              } 
+        ]
+     }
+ ] 
