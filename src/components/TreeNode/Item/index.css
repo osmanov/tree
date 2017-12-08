@@ -1,0 +1,6 @@
+.item{
+    cursor:pointer;
+}
+.item i{
+    margin-right: 5px;
+}

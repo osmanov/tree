@@ -8,9 +8,13 @@ import {Parse} from '../utils';
 class TreeState{
   
   @observable data =  Parse(verticals,categories,courses);
+  @observable lastClicked=null;
+  @observable prevClicked=null;
 
   @action
   toggle=(item)=> {
+    this.prevClicked=this.lastClicked;
+    this.lastClicked=item;
     if(item.parentNode){
         const {Index,LeafsType}=item.parentNode;
         return this.data[Index][LeafsType][item.Index].Opened=!this.data[Index][LeafsType][item.Index].Opened;
