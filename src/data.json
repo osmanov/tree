@@ -2,11 +2,13 @@
      {
         "Id": 1,
         "Name": "Health & Fitness",
+        "Opened":false,
         "Categories": [
             {
                 "Id": 1,
                 "Name": "Booty & Abs",
                 "State": "active",
+                "Opened":false,
                 "Courses":[
                     {
                         "Id": 1,
@@ -27,11 +29,13 @@
      {
         "Id": 2,
         "Name": "Business",
+        "Opened":false,
         "Categories": [
             {
                 "Id": 3,
                 "Name": "Advertising",
                 "State": "active",
+                "Opened":false,
                 "Courses":[
                     {
                         "Id": 5,
