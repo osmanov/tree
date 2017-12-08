@@ -1,14 +1,13 @@
-import { observable, action, computed, runInAction } from 'mobx';
-import shortid from 'shortid';
+import { observable, action } from 'mobx';
 
-import verticals from '../verticals.json';
-import categories from '../categories.json';
-import courses from '../courses.json';
-import {Union} from '../utils';
+import verticals from '../data/verticals.json';
+import categories from '../data/categories.json';
+import courses from '../data/courses.json';
+import {Parse} from '../utils';
 
 class TreeState{
   
-  @observable data =  Union(verticals,categories,courses);
+  @observable data =  Parse(verticals,categories,courses);
 
   @action
   toggle=(item)=> {

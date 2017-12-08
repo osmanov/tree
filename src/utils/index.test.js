@@ -1,6 +1,6 @@
-import verticals from '../verticals.json';
-import categories from '../categories.json';
-import courses from '../courses.json';
+import verticals from '../data/verticals.json';
+import categories from '../data/categories.json';
+import courses from '../data/courses.json';
 import {Parse} from './index';
 
 const data = Parse(verticals, categories, courses);
