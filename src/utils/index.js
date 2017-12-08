@@ -1,6 +1,6 @@
 import groupBy from 'lodash.groupby';
 
-export function Union(verticals,categories,courses){
+export function Parse(verticals,categories,courses){
     const coursesGroupByCategories=groupBy(courses, course=> course.Categories);
 
     categories=categories.map(category=>{
