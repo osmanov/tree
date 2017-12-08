@@ -7,7 +7,6 @@ import {  observer } from 'mobx-react';
 @observer
 class App extends Component {
   render() {
-    console.log(toJS(TreeState.data))
     return (
       <div className="App">
         <TreeNode

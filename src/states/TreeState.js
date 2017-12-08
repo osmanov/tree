@@ -1,11 +1,14 @@
 import { observable, action, computed, runInAction } from 'mobx';
 import shortid from 'shortid';
 
-import Data from '../data.json';
+import verticals from '../verticals.json';
+import categories from '../categories.json';
+import courses from '../courses.json';
+import {Union} from '../utils';
 
 class TreeState{
   
-  @observable data = Data;
+  @observable data =  Union(verticals,categories,courses);
 
   @action
   toggle=(item)=> {
